@@ -1,3 +1,9 @@
+# revision 23555
+# category Package
+# catalog-ctan /macros/latex/contrib/chess-problem-diagrams
+# catalog-date 2011-06-09 20:28:23 +0200
+# catalog-license lppl1.2
+# catalog-version 1.5.4
 Name:		texlive-chess-problem-diagrams
 Version:	1.5.4
 Release:	1
@@ -44,6 +50,7 @@ pieces) and other boards.
 #- source
 %doc %{_texmfdistdir}/source/latex/chess-problem-diagrams/diagram.dtx
 %doc %{_texmfdistdir}/source/latex/chess-problem-diagrams/diagram.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ pieces) and other boards.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
