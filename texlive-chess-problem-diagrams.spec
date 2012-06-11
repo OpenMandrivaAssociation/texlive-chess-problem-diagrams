@@ -1,12 +1,12 @@
-# revision 23555
+# revision 26206
 # category Package
 # catalog-ctan /macros/latex/contrib/chess-problem-diagrams
-# catalog-date 2011-06-09 20:28:23 +0200
+# catalog-date 2012-05-01 11:47:32 +0200
 # catalog-license lppl1.2
-# catalog-version 1.5.4
+# catalog-version 1.6
 Name:		texlive-chess-problem-diagrams
-Version:	1.5.4
-Release:	2
+Version:	1.6
+Release:	1
 Summary:	A package for typesetting chess problem diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chess-problem-diagrams
@@ -19,10 +19,8 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
-%define		_unpackaged_subdirs_terminate_build	0
-
 %description
-This package provides macros to typeset problem chess diagrams
+This package provides macros to typeset chess problem diagrams
 including fairy chess problems (mostly using rotated images of
 pieces) and other boards.
 
