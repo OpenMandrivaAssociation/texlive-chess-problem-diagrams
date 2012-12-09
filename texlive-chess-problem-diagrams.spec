@@ -50,3 +50,22 @@ pieces) and other boards.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.6-1
++ Revision: 804524
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5.4-2
++ Revision: 750160
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5.4-1
++ Revision: 718051
+- texlive-chess-problem-diagrams
+- texlive-chess-problem-diagrams
+- texlive-chess-problem-diagrams
+- texlive-chess-problem-diagrams
+- texlive-chess-problem-diagrams
+
