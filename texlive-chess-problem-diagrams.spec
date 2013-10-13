@@ -1,11 +1,11 @@
-# revision 26206
+# revision 30870
 # category Package
 # catalog-ctan /macros/latex/contrib/chess-problem-diagrams
-# catalog-date 2012-05-01 11:47:32 +0200
+# catalog-date 2013-06-22 23:41:37 +0200
 # catalog-license lppl1.2
-# catalog-version 1.6
+# catalog-version 1.6.5
 Name:		texlive-chess-problem-diagrams
-Version:	1.6
+Version:	1.6.5
 Release:	1
 Summary:	A package for typesetting chess problem diagrams
 Group:		Publishing
@@ -50,22 +50,3 @@ pieces) and other boards.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.6-1
-+ Revision: 804524
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5.4-2
-+ Revision: 750160
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5.4-1
-+ Revision: 718051
-- texlive-chess-problem-diagrams
-- texlive-chess-problem-diagrams
-- texlive-chess-problem-diagrams
-- texlive-chess-problem-diagrams
-- texlive-chess-problem-diagrams
-
