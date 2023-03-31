@@ -1,6 +1,6 @@
 Name:		texlive-chess-problem-diagrams
 Version:	63708
-Release:	1
+Release:	2
 Summary:	A package for typesetting chess problem diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chess-problem-diagrams
