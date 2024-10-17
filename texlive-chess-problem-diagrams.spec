@@ -3,7 +3,7 @@ Version:	63708
 Release:	2
 Summary:	A package for typesetting chess problem diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chess-problem-diagrams
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chess-problem-diagrams
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chess-problem-diagrams.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chess-problem-diagrams.doc.r%{version}.tar.xz
